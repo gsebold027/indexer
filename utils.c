@@ -19,7 +19,7 @@ void palavraParaMinusculo(char palavra[64]) {
 bool ehPalavraValida(string palavra) {
     int tamanhoPalavra = strlen(palavra);
 
-    if (tamanhoPalavra <= 3)
+    if (tamanhoPalavra <= 2)
         return false;
 
     return true;
